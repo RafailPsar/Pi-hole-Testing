@@ -1,0 +1,23 @@
+[project]
+name = "pi-hole-testing"
+version = "0.1.0"
+description = "Set of robot tests for pi-hole system"
+authors = [
+    {name = "Rafail Psaraftis"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "robotframework >=7.4.2",
+    "robotframework-requests >=0.9.7",
+    "pyyaml >=6.0.3",
+    "python-dotenv >=1.2.2"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
